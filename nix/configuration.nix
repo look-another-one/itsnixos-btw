@@ -36,6 +36,7 @@
     git
     localsend
     bat
+    claude-code
   ];
 
   time.timeZone = "Asia/Karachi";
