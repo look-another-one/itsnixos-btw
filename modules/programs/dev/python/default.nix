@@ -7,6 +7,5 @@
     # conda
     ruff
     ty
-    jupyter
   ];
 }
