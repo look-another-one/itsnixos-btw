@@ -32,6 +32,9 @@
     ../modules/programs/tui/lazygit/default.nix
     ../modules/programs/tui/yazi/default.nix
 
+    ### Dev
+    ../modules/programs/dev/zellij/default.nix
+
     ### Desktop
     ../modules/programs/desktop/noctalia/default.nix
     ../modules/programs/desktop/theme.nix
