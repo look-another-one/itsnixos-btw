@@ -16,6 +16,7 @@
       "ExtensionInstallForcelist" = [
         "fiecjgpoilkhmoieaboolkfmgbnhlhop" # clean internet
         "khncfooichmfjbepaaaebmommgaepoid" # uhook
+        "enboaomnljigfhfjfoalacienlhjlfil" # untrap for youtube
         "omoinegiohhgbikclijaniebjpkeopip" # clickbait remover
         "hfjbmagddngcpeloejdejnfgbamkjaeg" # vimuim c
         "eimadpbcbfnmbkopoojfekhnkhdbieeh" # darkreader
