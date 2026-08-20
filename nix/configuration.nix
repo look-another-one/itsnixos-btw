@@ -28,13 +28,15 @@
     ../modules/programs/dev/nodejs/default.nix
     ../modules/programs/dev/python/default.nix
 
+    ### Media
+    ../modules/programs/media/localsend/default.nix
+    
     ../modules/programs/desktop/niri/default.nix
   ];
 
   environment.systemPackages = with pkgs; [
     neovim
     git
-    localsend
     bat
     claude-code
   ];
