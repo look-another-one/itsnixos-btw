@@ -72,7 +72,6 @@ prefer-no-csd
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 
 include "window-rules.kdl"
-include "monitors.kdl"
 include "keybinds.kdl"
 include "animations.kdl"
 spawn-at-startup "noctalia"

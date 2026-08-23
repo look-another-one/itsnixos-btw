@@ -14,7 +14,6 @@
       "BrowserAddPersonEnabled"= false;
       "RestoreOnStartup" = true;
       "ExtensionInstallForcelist" = [
-        "fiecjgpoilkhmoieaboolkfmgbnhlhop" # clean internet
         "khncfooichmfjbepaaaebmommgaepoid" # uhook
         "omoinegiohhgbikclijaniebjpkeopip" # clickbait remover
         "hfjbmagddngcpeloejdejnfgbamkjaeg" # vimuim c
@@ -22,7 +21,6 @@
         "ghmbeldphafepmbegfdlkpapadhbakde" # proton pass
       ];
       "MandatoryExtensionsForIncognitoNavigation" = [
-        "fiecjgpoilkhmoieaboolkfmgbnhlhop"
         "khncfooichmfjbepaaaebmommgaepoid"
       ];
     };

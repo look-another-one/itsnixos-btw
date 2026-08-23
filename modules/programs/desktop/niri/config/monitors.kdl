@@ -1,4 +1,0 @@
-output "PNP(XXX) AAA Unknown" {
-    scale 1.5
-    mode "1920x1080@50.000"
-}
