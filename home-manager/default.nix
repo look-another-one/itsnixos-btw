@@ -17,6 +17,7 @@
     ### Editor
     ../modules/programs/editor/obsidian/default.nix
     ../modules/programs/editor/zed-editor/default.nix
+    ../modules/programs/editor/nvim/default.nix
 
     ### Media
     ../modules/programs/media/imv/default.nix

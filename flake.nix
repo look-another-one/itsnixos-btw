@@ -15,10 +15,14 @@
       url = "github:oxcl/nix-flake-helium-browser";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nvf = {
+      url = "github:notashelf/nvf";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
-    { nixpkgs, home-manager, ... }@inputs:
+    { nixpkgs, home-manager, nvf, ... }@inputs:
     {
       nixosConfigurations.nixos-btw = nixpkgs.lib.nixosSystem {
         specialArgs = { inherit inputs; };
