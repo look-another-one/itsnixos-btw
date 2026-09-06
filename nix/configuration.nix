@@ -5,6 +5,7 @@
     ./hardware-configuration.nix
 
     ### Core
+    ../modules/core/core.nix
     ../modules/core/bluetooth.nix
     ../modules/core/battery.nix
     ../modules/core/audio.nix
@@ -35,9 +36,6 @@
   ];
 
   environment.systemPackages = with pkgs; [
-    neovim
-    git
-    bat
     claude-code
   ];
 
