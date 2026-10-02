@@ -1,8 +1,9 @@
-{ pkgs, ... }:
+{ ... }:
 
 {
   imports = [
     ./hardware-configuration.nix
+    ./app_list.nix
 
     ### Core
     ../modules/core/core.nix
@@ -33,10 +34,6 @@
     ../modules/programs/media/localsend/default.nix
     
     ../modules/programs/desktop/niri/default.nix
-  ];
-
-  environment.systemPackages = with pkgs; [
-    claude-code
   ];
 
   time.timeZone = "Asia/Karachi";

@@ -24,16 +24,12 @@
 
     ### Shell
     ../modules/programs/shell/bash/default.nix
-    ../modules/programs/shell/zsh/default.nix
     ../modules/programs/shell/nushell/default.nix
 
     ### Tui
     ../modules/programs/tui/btop/default.nix
     ../modules/programs/tui/lazygit/default.nix
     ../modules/programs/tui/yazi/default.nix
-
-    ### Dev
-    ../modules/programs/dev/zellij/default.nix
 
     ### Desktop
     ../modules/programs/desktop/noctalia/default.nix

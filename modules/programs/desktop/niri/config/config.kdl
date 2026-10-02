@@ -73,7 +73,6 @@ screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 
 include "window-rules.kdl"
 include "keybinds.kdl"
-include "animations.kdl"
 spawn-at-startup "noctalia"
 
 debug {

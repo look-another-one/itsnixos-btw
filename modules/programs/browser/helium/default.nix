@@ -10,8 +10,6 @@
       "PasswordManagerEnabled" = false;
       "BrowserSignin" = 0;
       "SyncDisabled" = true;
-      "BrowserGuestModeEnabled"= false;
-      "BrowserAddPersonEnabled"= false;
       "RestoreOnStartup" = true;
       "ExtensionInstallForcelist" = [
         "khncfooichmfjbepaaaebmommgaepoid" # uhook
