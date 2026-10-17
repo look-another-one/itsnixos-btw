@@ -5,7 +5,7 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
     // === Application Launchers ===
     Mod+T hotkey-overlay-title="Open Terminal" { spawn "kitty"; }
-    Mod+X { spawn-sh "codium"; } 
+    Mod+X { spawn-sh "codium"; }
     // === Security ===
     Mod+Shift+E { quit; }
     // === Window Management ===
@@ -137,8 +137,6 @@ binds {
     XF86Launch1 { screenshot; }
     Ctrl+XF86Launch1 { screenshot-screen; }
     Alt+XF86Launch1 { screenshot-window; }
-    Print { screenshot; }
-    Ctrl+Print { screenshot-screen; }
     Alt+Print { screenshot-window; }
 
     // === System Controls ===
@@ -153,7 +151,9 @@ binds {
     Mod+W { spawn-sh "noctalia msg panel-toggle wallpaper"; }
     Mod+Alt+P { spawn-sh "noctalia msg panel-toggle session"; }
     Mod+N { spawn-sh "noctalia msg panel-toggle noctalia/notes:panel"; }
-    
+    Print { spawn-sh "noctalia msg screenshot-region"; }
+    Ctrl+Print { spawn-sh "noctalia msg screenshot-fullscreen"; }
+
 
     // Audio & Brightness
     XF86AudioRaiseVolume { spawn-sh "noctalia msg volume-up"; }
