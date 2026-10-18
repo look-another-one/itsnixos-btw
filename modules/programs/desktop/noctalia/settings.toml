@@ -240,7 +240,7 @@ pre_action_fade_seconds = 2.0
     [idle.behavior.lock]
     action = "lock"
     command = ""
-    enabled = false
+    enabled = true
     locked_timeout = 0.0
     resume_command = ""
     timeout = 600.0
@@ -330,6 +330,7 @@ widget_order = [ "lockscreen-login-box@DP-1", "lockscreen-login-box@DP-2", "lock
         show_keyboard_layout = false
         show_login_button = false
         show_media = false
+        show_password_reveal = true
         show_session_buttons = true
         show_unlock_hint = false
         show_weather = false
@@ -358,15 +359,16 @@ widget_order = [ "lockscreen-login-box@DP-1", "lockscreen-login-box@DP-2", "lock
         show_keyboard_layout = true
         show_login_button = true
         show_media = true
+        show_password_reveal = true
         show_session_buttons = true
         show_unlock_hint = true
         show_weather = true
 
     [lockscreen_widgets.widget.lockscreen-widget-0000000000000001]
-    box_height = 0.0
-    box_width = 0.0
-    cx = 1352.0
-    cy = 102.0
+    box_height = 144.0
+    box_width = 320.0
+    cx = 1328.0
+    cy = 120.0
     enabled = true
     output = "eDP-1"
     placement_height = 864.0
@@ -375,8 +377,10 @@ widget_order = [ "lockscreen-login-box@DP-1", "lockscreen-login-box@DP-2", "lock
     type = "clock"
 
         [lockscreen_widgets.widget.lockscreen-widget-0000000000000001.settings]
+        background = false
+        center_text = true
         clock_style = "digital"
-        font_family = "TeX Gyre Adventor"
+        font_family = "FreeMono"
         format = "{:%H:%M:%S}"
 
 [nightlight]
@@ -439,7 +443,10 @@ scale = 1.0
     volume_output = true
     wifi = true
 
-[plugin_settings]
+[plugin_settings."ashur-d/wallpaper-widget"]
+close_on_apply = true
+hub_placement = "attached"
+notify_on_change = false
 
 [plugins]
 auto_update = "all"
@@ -711,8 +718,8 @@ sync_color_scheme = true
 wallpaper_scheme = "m3-rainbow"
 
     [theme.templates]
-    builtin_ids = []
-    community_ids = []
+    builtin_ids = [ "gtk3", "gtk4", "qt" ]
+    community_ids = [ "antigravity", "neovim", "bat" ]
     enable_builtin_templates = true
     enable_community_templates = true
 

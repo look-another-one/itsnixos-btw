@@ -15,7 +15,7 @@ input {
     }
     touchpad {
         natural-scroll
-    }
+        }
     mouse {
     }
     trackpoint {
@@ -79,4 +79,6 @@ debug {
     honor-xdg-activation-with-invalid-serial
 }
 
-
+output "DP-1" {
+    position x=0 y=0
+}
