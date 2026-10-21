@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   home.packages = [ pkgs.trash-cli ];
-  
+
   programs.yazi = {
     enable = true;
     enableZshIntegration = true;
@@ -10,19 +10,19 @@
     settings = {
       show-symlink = true;
       plugin = {
-              prepend_fetchers = [
-                {
-                  url = "*";
-                  run = "git";
-                  group = "git";
-                }
-                {
-                  url = "*/";
-                  run = "git";
-                  group = "git";
-                }
-              ];
-            };
+        prepend_fetchers = [
+          {
+            url = "*";
+            run = "git";
+            group = "git";
+          }
+          {
+            url = "*/";
+            run = "git";
+            group = "git";
+          }
+        ];
+      };
     };
     plugins = {
       git = pkgs.yaziPlugins.git;
@@ -34,15 +34,15 @@
       require("git"):setup()
     '';
     keymap = {
-          mgr = {
-            prepend_keymap = [
-              {
-                on = "R";
-                run = "plugin omni-trash";
-                desc = "Open Omni Trash";
-              }
-            ];
-          };
-        };
+      mgr = {
+        prepend_keymap = [
+          {
+            on = "R";
+            run = "plugin omni-trash";
+            desc = "Open Omni Trash";
+          }
+        ];
+      };
+    };
   };
 }
