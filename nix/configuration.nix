@@ -1,6 +1,4 @@
-{ ... }:
-
-{
+{ ... }: {
   imports = [
     ./hardware-configuration.nix
     ./app_list.nix
@@ -32,8 +30,9 @@
 
     ### Media
     ../modules/programs/media/localsend/default.nix
-    
+
     ../modules/programs/desktop/niri/default.nix
+    ../modules/programs/editor/vim/default.nix
   ];
 
   time.timeZone = "Asia/Karachi";
