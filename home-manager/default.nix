@@ -21,6 +21,7 @@
     ### Media
     ../modules/programs/media/imv/default.nix
     ../modules/programs/media/mpv/default.nix
+    ../modules/programs/media/vesktop/default.nix
 
     ### Shell
     ../modules/programs/shell/bash/default.nix
