@@ -16,7 +16,6 @@
     extraPortals = [
       pkgs.xdg-desktop-portal-gnome
       pkgs.xdg-desktop-portal-gtk
-      pkgs.xdg-desktop-portal-wlr
     ];
     config.common.default = [
       "gnome"

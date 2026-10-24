@@ -32,7 +32,6 @@
     ../modules/programs/media/localsend/default.nix
 
     ../modules/programs/desktop/niri/default.nix
-    ../modules/programs/desktop/mango/default.nix
     ../modules/programs/editor/vim/default.nix
   ];
 
