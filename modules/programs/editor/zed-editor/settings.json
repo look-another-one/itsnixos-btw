@@ -1,0 +1,57 @@
+{
+  "which_key": {
+    "enabled": true
+  },
+  "proxy": "",
+  "disable_ai": true,
+  "terminal": {
+    "toolbar": {}
+  },
+  "active_pane_modifiers": {},
+  "outline_panel": {
+    "dock": "right"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "tree_view": true,
+    "dock": "right"
+  },
+  "cli_default_open_behavior": "existing_window",
+  "project_panel": {
+    "bold_folder_labels": true,
+    "dock": "left"
+  },
+  "agent": {
+    "threads_sidebar": {
+      "position": "right"
+    },
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "icon_theme": "Material Icon Theme",
+  "theme": "Catppuccin Mocha",
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "nix": true,
+    "vscode-icons": true,
+    "material-icon-theme": true
+  },
+  "vim_mode": true,
+  "languages": {
+    "Python": {
+      "language_servers": [
+        "ty",
+        "!basedpyright"
+      ]
+    }
+  }
+}
