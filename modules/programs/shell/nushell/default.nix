@@ -20,6 +20,8 @@
 
       nix-sw = "nh os switch";
       nix-bt = "nh os boot";
+      
+      fastdl = "aria2c -x 16 -s 16 -k 1M -c";
     };
     extraConfig = ''
         $env.config.buffer_editor = "nvim" 
