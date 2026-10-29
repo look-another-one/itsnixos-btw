@@ -18,10 +18,11 @@
 --- 
 | **Usecase** | Nixos(wayland) |
 | ----------  | ----------  |
-| **Desktop** | Niri+Noctalia |
+| **Desktop** | Niri + Noctalia |
 | **Display Manager** | tuigreet |
 | **Terminal** | kitty |
-| **File Manager** | yazi |
+| **File Manager** | yazi + nemo |
 | **Video Player** | mpv |
 | **Image Viewer** | imv |
+| **File Charing** | localsend |
 | **Editor** | zed + neovim + obsidian |

@@ -18,9 +18,6 @@
         "eimadpbcbfnmbkopoojfekhnkhdbieeh" # darkreader
         "ghmbeldphafepmbegfdlkpapadhbakde" # proton pass
       ];
-      "MandatoryExtensionsForIncognitoNavigation" = [
-        "khncfooichmfjbepaaaebmommgaepoid"
-      ];
     };
   };
 }

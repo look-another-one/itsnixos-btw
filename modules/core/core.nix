@@ -16,6 +16,8 @@
     git
     bat
     gvfs
+    aria2
+    zip
   ];
 
 }

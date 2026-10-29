@@ -55,13 +55,13 @@ order = [ "main" ]
     radius_bottom_right = 12
     radius_top_left = 12
     radius_top_right = 12
-    reserve_space = false
+    reserve_space = true
     scale = 1.0
     shadow = true
     show_on_workspace_switch = false
     show_tooltip = true
-    smart_auto_hide = true
-    start = [ "control-center", "taskbar", "spacer_2", "active_window" ]
+    smart_auto_hide = false
+    start = [ "active_window" ]
     thickness = 36
     widget_spacing = 6
 
@@ -299,7 +299,12 @@ wallpaper = ""
 [lockscreen_widgets]
 enabled = true
 schema_version = 2
-widget_order = [ "lockscreen-login-box@DP-1", "lockscreen-login-box@DP-2", "lockscreen-widget-0000000000000001" ]
+widget_order = [
+    "lockscreen-login-box@DP-1",
+    "lockscreen-login-box@WL-1",
+    "lockscreen-login-box@DP-2",
+    "lockscreen-widget-0000000000000001"
+]
 
     [lockscreen_widgets.grid]
     cell_size = 16
@@ -336,10 +341,10 @@ widget_order = [ "lockscreen-login-box@DP-1", "lockscreen-login-box@DP-2", "lock
         show_weather = false
 
     [lockscreen_widgets.widget."lockscreen-login-box@DP-2"]
-    box_height = 196.0
-    box_width = 810.0
-    cx = 640.0
-    cy = 538.0
+    box_height = 70.0
+    box_width = 400.0
+    cx = 960.0
+    cy = 953.0
     enabled = true
     output = "DP-2"
     placement_height = 1080.0
@@ -348,6 +353,35 @@ widget_order = [ "lockscreen-login-box@DP-1", "lockscreen-login-box@DP-2", "lock
     type = "login_box"
 
         [lockscreen_widgets.widget."lockscreen-login-box@DP-2".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "compact"
+        show_caps_lock = true
+        show_keyboard_layout = false
+        show_login_button = false
+        show_media = false
+        show_password_reveal = false
+        show_session_buttons = false
+        show_unlock_hint = true
+        show_weather = false
+
+    [lockscreen_widgets.widget."lockscreen-login-box@WL-1"]
+    box_height = 196.0
+    box_width = 724.0
+    cx = 760.0
+    cy = 630.0
+    enabled = true
+    output = "WL-1"
+    placement_height = 812.0
+    placement_width = 1520.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@WL-1".settings]
         background_color = "surface_variant"
         background_opacity = 0.88
         background_radius = 12.0
@@ -367,7 +401,7 @@ widget_order = [ "lockscreen-login-box@DP-1", "lockscreen-login-box@DP-2", "lock
     [lockscreen_widgets.widget.lockscreen-widget-0000000000000001]
     box_height = 144.0
     box_width = 320.0
-    cx = 1328.0
+    cx = 1328.000244140625
     cy = 120.0
     enabled = true
     output = "eDP-1"
@@ -475,7 +509,7 @@ clipboard_enabled = true
 clipboard_history_max_entries = 100
 clipboard_image_action_command = ""
 clipboard_keep_from_closed_apps = true
-corner_radius_scale = 1.0
+corner_radius_scale = 0.0
 date_format = "%A, %x"
 disable_mipmaps = false
 external_ip_enabled = false
@@ -721,7 +755,7 @@ wallpaper_scheme = "m3-rainbow"
     builtin_ids = [ "gtk3", "gtk4", "qt" ]
     community_ids = [ "antigravity", "neovim", "bat" ]
     enable_builtin_templates = true
-    enable_community_templates = true
+    enable_community_templates = false
 
 [wallpaper]
 directory = "/home/humenbeing/wallpapers"
